@@ -120,9 +120,5 @@ If you find this bot helpful, please consider:
 - Following our Telegram channel
 - Contributing to the project
 
-## 🙏 Acknowledgments
-
-Special thanks to all contributors and the 3DOS community!
-
 ---
 Made with ❤️ by [AirdropInsiderID](https://t.me/AirdropInsiderID)
