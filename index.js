@@ -124,6 +124,7 @@ async function getEarningsData(bearerToken, axiosInstance) {
         });
 
         if (response.data.data) {
+            console.log(response?.data, '返回结果')
             return {
                 todaysEarning: response.data.data.todays_earning,
                 loyaltyPoints: response.data.data.loyalty_points,
