@@ -155,6 +155,7 @@ async function sendHarvestedData(apiSecret, url, harvestedData, axiosInstance) {
 }
 
 function displayEarnings(earningsData, accountIndex) {
+    console.log(earningsData, 'earningsData')
     if (earningsData) {
         const { todaysEarning, loyaltyPoints, username, currentTier } = earningsData;
         console.log(chalk.cyan(`\n[Account ${accountIndex + 1}]`));
