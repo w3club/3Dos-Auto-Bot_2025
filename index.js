@@ -29,7 +29,7 @@ async function readFileLines(filePath) {
 
 async function readProxies() {
     const proxies = await readFileLines(PROXY_FILE);
-    return proxies.filter(proxy => proxy.trim());
+    return proxies;
 }
 
 async function readSecrets() {
